@@ -80,11 +80,9 @@
 <script>
 import axios from "axios";
 import QrcodeVue from "qrcode.vue";
-import virtualList from "vue-virtual-scroll-list";
 
 export default {
   components: {
-    virtualList,
     QrcodeVue
   },
 
